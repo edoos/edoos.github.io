@@ -1,0 +1,49 @@
+head, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: rgb(160, 255, 236);
+    background: -webkit-linear-gradient(left, rgba(160, 255, 236, 1) 0%, rgba(104, 242, 214, 1) 100%);
+    background: -o-linear-gradient(left, rgba(160, 255, 236, 1) 0%, rgba(104, 242, 214, 1) 100%);
+    background: linear-gradient(to right, rgba(160, 255, 236, 1) 0%, rgba(104, 242, 214, 1) 100%);
+    text-align: center;
+    font-family: "URW Gothic L", "Century Gothic", "Apple Gothic", sans-serif;
+}
+
+a {
+	color: #2193FF;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+section {
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+    background-color: white;
+    margin-top: 20px;
+    text-align: left;
+}
+
+footer {
+    padding: 10px;
+}
+
+#bumperLogo {
+    position: fixed;
+    top: calc(50vh - 10vw);
+    left: 25vw;
+    width: 50vw;
+}
+
+#content {
+    position: relative;
+    width: 80vw;
+    top: 80vh;
+    left: 10vw;
+}

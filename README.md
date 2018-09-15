@@ -1,2 +1,2 @@
 # edoos.github.io
-edoos main website.
+edoos main website repository.
